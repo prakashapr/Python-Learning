@@ -29,3 +29,4 @@ logging.info (linestring.split('\n'))
 for ln in linestring.split('\n'):
     if ln.find("prakasha") >=0:
         logging.info ("prakasha is found in %s", ln)
+logging.info("Jaya")
