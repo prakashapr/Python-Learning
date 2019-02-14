@@ -1,7 +1,7 @@
 import logging
 from lib import *
 
-fl1="/Volumes/Data/Jaya/Learning/Python-Learning/files/workfile.txt"
+fl1 = "/Volumes/Data/Jaya/Learning/Python-Learning/files/workfile.txt"
 fle = open(fl1, "r")
 loglist = fle.readlines()
 fle.close()
@@ -12,21 +12,21 @@ fle.close()
 # print (f.read(1))
 # fle.readline()
 for fl2 in loglist:
-    fl=fl2.rstrip('\n')
+    fl = fl2.rstrip("\n")
     # logging.info(fl)
     # if "prakasha" in fl:
     #     print ("Line %s contains prakasha" %fl.rstrip('\n'))
     if str(fl).find("prakasha"):
-        logging.info ("Line %s contains prakasha" %fl.rstrip('\n'))
+        logging.info("Line %s contains prakasha" % fl.rstrip("\n"))
 # Example:
-linestring = open(fl1, 'r').read()
+linestring = open(fl1, "r").read()
 
 # Then you can print it:
 logging.info(linestring)
 
 # You can even make a list with it!
-logging.info (linestring.split('\n'))
-for ln in linestring.split('\n'):
-    if ln.find("prakasha") >=0:
-        logging.info ("prakasha is found in %s", ln)
+logging.info(linestring.split("\n"))
+for ln in linestring.split("\n"):
+    if ln.find("prakasha") >= 0:
+        logging.info("prakasha is found in %s", ln)
 logging.info("Jaya")
