@@ -1,5 +1,5 @@
 import logging
-from lib import logger
+from lib import *
 
 fl1="/Volumes/Data/Jaya/Learning/Python-Learning/files/workfile.txt"
 fle = open(fl1, "r")

@@ -1,1 +1,1 @@
-all="logger"
+__all__ = ['logger']
