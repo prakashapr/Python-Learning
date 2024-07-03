@@ -6,7 +6,7 @@ print(task)
 print(task[0:3])
 python = ["12"]
 print(task + python)
-
+print ()
 a = "he is a good boy"
 print(a)
 print(a + " " + "python")
