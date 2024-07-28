@@ -1,3 +1,4 @@
+from statistics import mean
 """import logging
 from lib import *
 
@@ -47,8 +48,24 @@ f = open("loop_sample.py")  # TO OPEN FILE
 print(f.read())
 """
 
-f = open("key words", "rt")
-print(f.read())
+file_handle = open("../files/iperf.log", "rt")
+# print(f.read())
+file_content = file_handle.readlines()
+thpt_numbers = []
+for item in file_content:
+    print(item)
+    item=item.strip()
+    if "Mbits/sec" in item:
+        line_item = item.split(" ")
+        thpt_numbers.append(int(line_item[-2]))
+
+print(f'thpt_numbers = {thpt_numbers}')
+tput_max = max(thpt_numbers)
+print(f'Maximum number is :{tput_max}')
+print(f'min number is :{min(thpt_numbers)}')
+print(f'average number is :{mean(thpt_numbers)}')
+
+    # print(item)
 
 
 
