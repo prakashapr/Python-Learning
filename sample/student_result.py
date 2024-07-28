@@ -21,3 +21,20 @@ student_dct = {
 ## Print max %
 ## print max marks in each subject
 ## print pass fail after applying grace number for each subject
+
+#min - 40 marks
+#total= 100
+
+total_marks = 100
+
+min_marks = 40
+
+grace_marks = 5
+
+def student_result:
+
+
+
+
+
+

@@ -1,4 +1,4 @@
-import logging
+"""import logging
 from lib import *
 
 fl1 = "/Volumes/Data/Jaya/Learning/Python-Learning/files/workfile.txt"
@@ -30,3 +30,26 @@ for ln in linestring.split("\n"):
     if ln.find("prakasha") >= 0:
         logging.info("prakasha is found in %s", ln)
 logging.info("Jaya")
+"""
+# ####################### File operations ####################
+
+# w - write
+# a - append
+# x - create file and write
+# r - read
+# t - text
+# b - binary            >> to read binary of any file
+# read - to read full txt in file
+# readline - to read txt in line
+"""
+f = open("loop_sample.py")  # TO OPEN FILE
+
+print(f.read())
+"""
+
+f = open("key words", "rt")
+print(f.read())
+
+
+
+

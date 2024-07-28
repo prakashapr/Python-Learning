@@ -1,4 +1,4 @@
-task = ["amma", "appa", "god", "job"]
+"""task = ["amma", "appa", "god", "job"]
 print(task)
 task[1] = "anna"
 print(task)
@@ -44,3 +44,22 @@ else:
         if j > i / j:
             print(i, "is a prime")
             i = i + 1
+
+"""
+
+#python boolean data types
+
+#bool means true or false...!
+"""
+name = "Nithin C N  "
+print('i' in name)
+"""
+
+my_age = 19
+your_age = 25
+print(19 < 25)   #true
+print(25 == 25)  #true
+
+#bool ope using variables
+print(my_age > your_age)  #false (19 < 25)
+
