@@ -1,2 +1,2 @@
-### Count how many lines contains PFTBT
-### Find time difference between all all the lines starting with PFTBT
+### Count how many lines contains crashed
+### Find time difference between all all the lines starting with crashed
