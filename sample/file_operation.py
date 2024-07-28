@@ -48,7 +48,7 @@ f = open("loop_sample.py")  # TO OPEN FILE
 print(f.read())
 """
 
-file_handle = open("../files/iperf.log", "rt")
+file_handle = open("/Users/prakashapannenahalliramalingaiah/Python-Learning/files/iperf.log", "rt")
 # print(f.read())
 file_content = file_handle.readlines()
 thpt_numbers = []
