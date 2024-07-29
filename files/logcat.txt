@@ -66,7 +66,7 @@
 06-10 22:35:45.528  1846 16583 V BackupManagerConstants: getFullBackupRequiredNetworkType(...) returns 2
 06-10 22:35:45.528  1846 16583 V BackupManagerConstants: getFullBackupRequireCharging(...) returns true
 06-10 22:35:45.530  1846 16583 I PFTBT   : Full data backup pass finished.
-06-10 22:35:45.530  1846 16583 V BackupManagerService: [UserID:0] Released wakelock:*backup*-0-3233
+06-10 22:35:45.530  1846 16583 V BackupManagerService [UserID:0] Released wakelock:*backup*-0-3233
 06-10 22:35:45.530  1846  1846 V BackupManagerConstants: getFullBackupIntervalMilliseconds(...) returns 86400000
 06-10 22:35:45.530  1846  1846 V BackupManagerConstants: getKeyValueBackupIntervalMilliseconds(...) returns 14400000
 06-10 22:35:45.530  1846  1846 I BackupManagerService: [UserID:0] Beginning scheduled full backup operation

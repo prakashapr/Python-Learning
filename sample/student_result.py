@@ -31,7 +31,7 @@ min_marks = 40
 
 grace_marks = 5
 
-def student_result:
+
 
 
 
